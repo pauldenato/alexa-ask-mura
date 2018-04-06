@@ -1,0 +1,87 @@
+{
+  "version": "1.0",
+  "session": {
+    "new": false,
+    "sessionId": "amzn1.echo-api.session.939fb8a0-4aff-4bb1-9eae-b2ba5180cf6f",
+    "application": {
+      "applicationId": "{Replace with the Skill ID from Your Skill}"
+    },
+    "user": {
+      "userId": "amzn1.ask.account.AFUIJOLKPVNMUJYL64C65MXMSTN7ZCAOO37IWCWI2TRUM37RJ4I5ZMPPQL2RR6AKQ5C423VYYTPK56KDALCBPWOKALAQ2S7IVZQQXU6BQ7YVLBOIHKGTCVSCS43H5E5VCMWZS5PVNO5W26UUQXZQ2J55P3ZBKUC2LXERUTK37GZZOCBI4PC6QQVNKCN5U2HU37BSRTKKXMBUMUA"
+    }
+  },
+  "context": {
+    "AudioPlayer": {
+      "playerActivity": "IDLE"
+    },
+    "Display": {
+      "token": ""
+    },
+    "System": {
+      "application": {
+        "applicationId": "{Replace with the Skill ID from Your Skill}"
+      },
+      "user": {
+        "userId": "amzn1.ask.account.AFUIJOLKPVNMUJYL64C65MXMSTN7ZCAOO37IWCWI2TRUM37RJ4I5ZMPPQL2RR6AKQ5C423VYYTPK56KDALCBPWOKALAQ2S7IVZQQXU6BQ7YVLBOIHKGTCVSCS43H5E5VCMWZS5PVNO5W26UUQXZQ2J55P3ZBKUC2LXERUTK37GZZOCBI4PC6QQVNKCN5U2HU37BSRTKKXMBUMUA"
+      },
+      "device": {
+        "deviceId": "amzn1.ask.device.AHIT35HXOWVDPM2V3CK6WFQY56XUOZVFAIAQD6FJ7AVBPNE6HX5YL6QCJIBVDUVJPOE4VF7NHAY2QIYTTYD7MYONZOQAPFSKLUFMRJ6L4KEW5I7BSOXQMADDXEHIFMTIJZTNMCJ2WDDMNOWIPLZXHPHCJYHA",
+        "supportedInterfaces": {
+          "AudioPlayer": {},
+          "Display": {
+            "templateVersion": "1.0",
+            "markupVersion": "1.0"
+          }
+        }
+      },
+      "apiEndpoint": "https://api.amazonalexa.com",
+      "apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjkzNTAzMGUzLTg1MzEtNDA0OS04MGQ1LWJjMjM1OTgxMTA3MSIsImV4cCI6MTUyMDkwMzA1OSwiaWF0IjoxNTIwODk5NDU5LCJuYmYiOjE1MjA4OTk0NTksInByaXZhdGVDbGFpbXMiOnsiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUhJVDM1SFhPV1ZEUE0yVjNDSzZXRlFZNTZYVU9aVkZBSUFRRDZGSjdBVkJQTkU2SFg1WUw2UUNKSUJWRFVWSlBPRTRWRjdOSEFZMlFJWVRUWUQ3TVlPTlpPUUFQRlNLTFVGTVJKNkw0S0VXNUk3QlNPWFFNQUREWEVISUZNVElKWlROTUNKMldERE1OT1dJUExaWEhQSENKWUhBIiwidXNlcklkIjoiYW16bjEuYXNrLmFjY291bnQuQUZVSUpPTEtQVk5NVUpZTDY0QzY1TVhNU1RON1pDQU9PMzdJV0NXSTJUUlVNMzdSSjRJNVpNUFBRTDJSUjZBS1E1QzQyM1ZZWVRQSzU2S0RBTENCUFdPS0FMQVEyUzdJVlpRUVhVNkJRN1lWTEJPSUhLR1RDVlNDUzQzSDVFNVZDTVdaUzVQVk5PNVcyNlVVUVhaUTJKNTVQM1pCS1VDMkxYRVJVVEszN0daWk9DQkk0UEM2UVFWTktDTjVVMkhVMzdCU1JUS0tYTUJVTVVBIn19.Y6_F1TMI6xJpe6DbAkFhKJ0mQNRIV6UtGX877foUDavN6HpEFk-3BQpgNbagru1PJl7ZDiHGQ1eYNsxjcw0xFiiKEjrJYm8JZNnQBsvMaZ1xPc0xOqFA3-hGPhx8myv0dyLIAPrGoad48H-bqdqwwXirURjJB7k_A6BzD_S24MTNAsdxjOcSjIwVsuYZZXWbcm9mbmP8lbFLPrQ5QemIck0dFrJwdzJA0n0JyB8wbOMEI4w6baYbPAR2jABYC6-NELRja1pgUF4mZ1UltJoVKYuZQVVxe_yoUNiQVONFo_k-ZBjKASg4Kivebhul51soZsWMroC-iH4_hyvvt5cqAw"
+    }
+  },
+  "request": {
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.3a526487-9650-4751-a669-70976d1681e8",
+    "timestamp": "2018-03-13T00:04:19Z",
+    "locale": "en-US",
+    "intent": {
+      "name": "AddIdeaIntent",
+      "confirmationStatus": "NONE",
+      "slots": {
+        "IdeaName": {
+          "name": "IdeaName",
+          "value": "Bacon pancakes",
+          "confirmationStatus": "CONFIRMED"
+        },
+        "IdeaContent": {
+          "name": "IdeaContent",
+          "value": "you take some bacon and you put it in some pancakes",
+          "confirmationStatus": "CONFIRMED"
+        },
+        "IdeaRating": {
+          "name": "IdeaRating",
+          "value": "great",
+          "resolutions": {
+            "resolutionsPerAuthority": [
+              {
+                "authority": "amzn1.er-authority.echo-sdk.{Replace with the Skill ID from Your Skill}.IdeaRating",
+                "status": {
+                  "code": "ER_SUCCESS_MATCH"
+                },
+                "values": [
+                  {
+                    "value": {
+                      "name": "crazy",
+                      "id": "acaa16770db76c1ffb9cee51c3cabfcf"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          "confirmationStatus": "CONFIRMED"
+        }
+      }
+    },
+    "dialogState": "IN_PROGRESS"
+  }
+}

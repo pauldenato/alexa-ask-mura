@@ -1,0 +1,114 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "mura",
+            "intents": [
+                {
+                    "name": "AddIdeaIntent",
+                    "slots": [
+                        {
+                            "name": "IdeaName",
+                            "type": "AMAZON.Comic",
+                            "samples": [
+                                "{IdeaName}"
+                            ]
+                        },
+                        {
+                            "name": "IdeaContent",
+                            "type": "AMAZON.Comic"
+                        },
+                        {
+                            "name": "IdeaRating",
+                            "type": "IdeaRating"
+                        }
+                    ],
+                    "samples": [
+                        "I have another idea",
+                        "I just had a great idea",
+                        "I have an Idea",
+                        "Add an idea"
+                    ]
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                }
+            ],
+            "types": [
+                {
+                    "name": "IdeaRating",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "great"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "ok"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "crazy"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        "dialog": {
+            "intents": [
+                {
+                    "name": "AddIdeaIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "IdeaName",
+                            "type": "AMAZON.Comic",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Intent-AddIdeaIntent.IntentSlot-IdeaName"
+                            }
+                        },
+                        {
+                            "name": "IdeaContent",
+                            "type": "AMAZON.Comic",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        },
+                        {
+                            "name": "IdeaRating",
+                            "type": "IdeaRating",
+                            "confirmationRequired": false,
+                            "elicitationRequired": false,
+                            "prompts": {}
+                        }
+                    ]
+                }
+            ]
+        },
+        "prompts": [
+            {
+                "id": "Elicit.Intent-AddIdeaIntent.IntentSlot-IdeaName",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What is the name of this idea?"
+                    }
+                ]
+            }
+        ]
+    }
+}
