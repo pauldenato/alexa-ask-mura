@@ -6,14 +6,15 @@ This is just an example of how you can connect an Alexa skill to the Mura REST A
 For this to work:
 
 1) You must be on Mura 7.0 or greater
-    1a) Create your developer account @ http://developer.amazon.com
-    1b) Create an AWS account @ http://aws.amazon.com/ (you'll need this for the Lambda Function)  
-    1c) Create your skill and copy and past the skill.json into the `JSON Editor` of the build page for your skill (this will give you the same interaction model from my demo.)
+ - 1a) Create your developer account @ http://developer.amazon.com
+ - 1b) Create an AWS account @ http://aws.amazon.com/ (you'll need this for the Lambda Function)
+ - 1c) Create your skill and copy and past the skill.json into the `JSON Editor` of the build page for your skill (this will give you
+   the same interaction model from my demo.)
 
 2) Place the `/mura-alexa` folder in the:
-    7.0 - `{siteid}/includes/{theme}/display_objects`
-    7.1 - `sites/{siteid}/modules`
-    2b) `?appreload&applyDBUpdates`
+ - 7.0 - `{siteid}/includes/{theme}/display_objects`
+ - 7.1 - `sites/{siteid}/modules`
+ - 2b) `?appreload&applyDBUpdates`
 
 3) For help creating your Lambda Function see the following: https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html
 
