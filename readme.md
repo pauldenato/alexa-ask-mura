@@ -13,6 +13,7 @@ For this to work:
 2) Place the `/mura-alexa` folder in the:
     7.0 - `{siteid}/includes/{theme}/display_objects`
     7.1 - `sites/{siteid}/modules`
+    2b) `?appreload&applyDBUpdates`
 
 3) For help creating your Lambda Function see the following: https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html
 
