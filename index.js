@@ -1,5 +1,7 @@
 // Copy and paste this into the Lambda Function Console
 // console.log('Function Started...');
+// Using http it should be https you can require that if necessary. with the following.
+//const https = require('https');
 const http = require('http');
 const alexaSDK = require('alexa-sdk');
 
@@ -225,6 +227,6 @@ const setAnIdea = function(options, postData) {
 		request.end();
 		// handle connection errors of the request
 		request.on('error', (err) => reject(err));
-		
+
 	});
 };
